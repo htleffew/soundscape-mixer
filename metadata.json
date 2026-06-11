@@ -1,0 +1,6 @@
+{
+  "name": "soundscape-mixer",
+  "description": "Upload, layer, and mix multiple audio files. Supports trimming, staggered delay, looping, playback speed, and reverb. Export final mix to WAV.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
