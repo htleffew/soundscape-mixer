@@ -1,20 +1,14 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Soundscape Mixer
 
-# Run and deploy your AI Studio app
+A Next.js web app for mixing ambient soundscapes, using the Google Gemini API.
 
-This contains everything you need to run your app locally.
+## Run locally
 
-View your app in AI Studio: https://ai.studio/apps/c0f8f318-2431-4e79-8fc9-2cd70c393e7a
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Create a `.env.local` file in the project root and set your Gemini API key:
+   `GEMINI_API_KEY=your-key-here`
+3. Start the dev server:
    `npm run dev`
